@@ -1,6 +1,4 @@
-use lalrpop_util::lalrpop_mod;
-
-lalrpop_mod!(pub calculator1);
+pub mod calculator1;
 
 #[test]
 fn calculator1() {
